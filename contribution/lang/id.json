@@ -26,11 +26,11 @@
 				"vars": [
 					"amount"
 				],
-				"trans": "Kamu sudah bayar sewa apartemenmu sebesar ${amount}",
+				"trans": "Kamu telah membayar sewa apartemenmu sebesar ${amount}",
 				"eng": "You have paid your apartment rent of ${amount}"
 			},
 			"unpaidMail": {
-				"trans": "Kamu gagal bayar sewa apartemenmu, apartemenmu telah disita",
+				"trans": "Kamu gagal membayar sewa apartemenmu, apartemenmu telah disita",
 				"eng": "You have failed to pay your apartment rent, your apartment has been terminated"
 			}
 		}
@@ -42,7 +42,7 @@
 				"eng": "Rent Apartment"
 			},
 			"description": {
-				"trans": "Kamu yakin mau sewa apartemen ini?",
+				"trans": "Apakah kamu yakin ingin sewa apartemen ini?",
 				"eng": "Are you sure you want to rent this apartment?"
 			}
 		},
@@ -53,7 +53,7 @@
 	},
 	"tabs": {
 		"map": {
-			"trans": "Peta",
+			"trans": "Map",
 			"eng": "Map"
 		},
 		"inventory": {
@@ -84,21 +84,21 @@
 			"vars": [
 				"time"
 			],
-			"trans": "Dana Cali ${time}",
+			"trans": "Pendanaan Kalibrasi ${time}",
 			"eng": "Cali Funds ${time}"
 		},
 		"progressTitle2": {
 			"vars": [
 				"time"
 			],
-			"trans": "Dana Cali ${time}",
+			"trans": "Pendanaan Kalibrasi ${time}",
 			"eng": "Cali Funds ${time}"
 		},
 		"announcement": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Kalibrasi (${percent}%) sudah diterapkan",
+			"trans": "Kalibrasi (${percent}%) telah diluncurkan",
 			"eng": "Calibration ${percent}% has been deployed"
 		}
 	},
@@ -150,7 +150,7 @@
 					"vars": [
 						"amount"
 					],
-					"trans": "${amount} bitcoin akan disetorkan ke akun geng mu, tindakan ini tidak dapat dikembalikan",
+					"trans": "${amount} bitcoin akan disetorkan ke akun gengmu, tindakan ini tidak dapat dikembalikan",
 					"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
 				}
 			},
@@ -165,14 +165,14 @@
 				},
 				"modal": {
 					"title": {
-						"trans": "Silakan masukkan motto geng mu",
+						"trans": "Silakan masukkan motto gengmu",
 						"eng": "Please enter your gang motto"
 					}
 				}
 			},
 			"updateImage": {
 				"button": {
-					"trans": "Perbarui Gambar Geng.",
+					"trans": "Perbarui Gambar Geng",
 					"eng": "Update Gang Image"
 				}
 			},
@@ -181,7 +181,7 @@
 				"eng": "Gang Level"
 			},
 			"resource": {
-				"trans": "Sumber daya",
+				"trans": "Sumber Daya",
 				"eng": "Resource"
 			},
 			"funding": {
@@ -204,15 +204,15 @@
 				"eng": "Next upkeep Date: ${nextUpkeepDate}"
 			},
 			"insufficientError": {
-				"trans": "Sumber daya kritis",
+				"trans": "Krisis Sumber Daya",
 				"eng": "resource critical"
 			},
 			"insufficientFound": {
-				"trans": "Dana tidak cukup",
+				"trans": "Pendanaan Tidak Cukup",
 				"eng": "Insufficient Funds"
 			},
 			"insufficientResource": {
-				"trans": "Sumber daya tidak cukup",
+				"trans": "Sumber Daya Tidak Cukup",
 				"eng": "Insufficient Resources"
 			},
 			"occupation": {
@@ -232,14 +232,14 @@
 				"eng": "Community Content"
 			},
 			"description": {
-				"trans": "Konten ini disumbangkan oleh komunitas. Klik di sini untuk menyumbangkan kontenmu sendiri.",
+				"trans": "Konten ini disumbangkan oleh komunitas. Klik di sini untuk menyumbangkan konten buatanmu",
 				"eng": "This content is contributed by the community. click here to contribute your own content."
 			}
 		},
 		"quest": {
 			"globalParty": {
 				"progressTitle": {
-					"trans": "Dana Pesta Global",
+					"trans": "Pendanaan Global Party",
 					"eng": "Global Party Funds"
 				}
 			},
@@ -250,34 +250,34 @@
 				},
 				"printingTooLow": {
 					"title": {
-						"trans": "Tingkatkan Peringkat Percetakan",
+						"trans": "Tingkatkan Level Percetakan",
 						"eng": "Improve Printing Rank"
 					},
 					"description": {
-						"trans": "Peringkat percetakan menentukan Level item yang Kamu cetak. Dapatkan Exp pencetakan dengan Cetak & Jual di Pasar Gelap",
+						"trans": "Level Percetakan menentukan Level item yang kamu cetak. Dapatkan Exp pencetakan dengan Cetak & Jual di Pasar Gelap",
 						"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
 					}
 				},
 				"gearTooWeak": {
 					"title": {
-						"trans": "Lu masih lemah, dapatkan peralatan yang lebih baik!",
+						"trans": "Dapatkan peralatan yang lebih baik!",
 						"eng": "Get even better equipments!"
 					},
 					"description": {
-						"trans": "Peralatan Kamu saat ini tampaknya ketinggalan jaman untuk levelmu, coba Buat (Cetak atau temukan) yang lebih kuat untuk menggantinya",
+						"trans": "Perlengkapan kamu saat ini tampaknya cukup tertinggal untuk levelmu, coba cetak perlengkapan yang lebih kuat",
 						"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
 					}
 				},
 				"noUpgrade": {
 					"title": {
-						"trans": "Tingkatkan peralatanmu!",
+						"trans": "Tingkatkan perlengkapanmu!",
 						"eng": "Upgrade your equipment!"
 					},
 					"description": {
 						"vars": [
 							"itemName"
 						],
-						"trans": "Kamu dapat meningkatkan peralatanmu dengan menggunakan ${itemName}",
+						"trans": "Kamu dapat meningkatkan perlengkapanmu dengan menggunakan ${itemName}",
 						"eng": "You can upgrade your equipment by using the ${itemName}"
 					}
 				},
@@ -287,7 +287,7 @@
 						"eng": "Use AI Core"
 					},
 					"description": {
-						"trans": "Sepertinya Kamu memiliki beberapa inti AI, gunakan untuk melakukan AFK auto leveling di area Level yang sesuai.",
+						"trans": "Sepertinya kamu memiliki beberapa Inti AI, gunakan Inti AI untuk melakukan AFK auto leveling di area level yang sesuai.",
 						"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
 					}
 				},
@@ -297,7 +297,7 @@
 						"eng": "Acquire AI Cores"
 					},
 					"description": {
-						"trans": "Kamu mungkin mendapatkan inti ai dengan: \n         - Memulung di berbagai lokasi \n         - Membuatnya dengan Hash Processors dan sisa-sisa teknologi (Tech Scraps) \n         - Menjarah dari musuh di semua lokasi",
+						"trans": "Kamu mungkin mendapatkan Inti AI dengan: \n         - Memulung di berbagai lokasi \n         - Membuatnya dengan Hash Prosesor dan Kepingan Teknologi (Tech Scraps) \n         - Menjarah dari musuh di semua lokasi",
 						"eng": "You may get AI Cores by: \r\n        - Scavenge in various locations\r\n        - Crafting with Hash Processors and Tech Scraps\r\n        - Looting from enemies in all locations"
 					}
 				},
@@ -316,7 +316,7 @@
 			},
 			"globalQuest": {
 				"progressTitleV2": {
-					"trans": "Menerobos Data SL",
+					"trans": "Menerobos SL-Data",
 					"eng": "SL-Data Breach"
 				}
 			}
@@ -329,17 +329,17 @@
 						"eng": "Decryption successful"
 					},
 					"description": {
-						"trans": "sedang mengolah",
+						"trans": "sedang memproses",
 						"eng": "processing"
 					}
 				},
 				"description": {
-					"trans": "Kamu menemukan kotak rampasan yang dikunci dengan keypad berwarna, Kamu harusnya dapat membukanya dengan urutan warna yang benar.",
+					"trans": "Kamu menemukan kotak rampasan yang dikunci dengan keypad berwarna, Kamu harus membukanya dengan urutan warna yang benar.",
 					"eng": "You found a locked loot box with color keypad, you should be able to unlock it with the correct sequence of colors."
 				},
 				"progress": {
 					"title": {
-						"trans": "Buka kemajuan",
+						"trans": "kemajuan membuka",
 						"eng": "Unlock progress"
 					}
 				},
@@ -362,7 +362,7 @@
 					},
 					"button": {
 						"title": {
-							"trans": "Coba lagi",
+							"trans": "Coba Lagi",
 							"eng": "Try Again"
 						}
 					}
@@ -391,19 +391,19 @@
 				"eng": "Take Bitcoins out of bank"
 			},
 			"putItemToVault": {
-				"trans": "Setor barang",
+				"trans": "Setor Item",
 				"eng": "Deposit Item"
 			},
 			"putItemToVaultDesc": {
-				"trans": "Masukkan barang ke lemari besimu",
+				"trans": "Masukkan item ke brankasmu",
 				"eng": "Put items into your vault"
 			},
 			"takeItemFromVault": {
-				"trans": "Tarik barang",
+				"trans": "Tarik Item",
 				"eng": "Withdraw Item"
 			},
 			"takeItemFromVaultDesc": {
-				"trans": "Ambil barang dari lemari besimu",
+				"trans": "Ambil item dari brankas",
 				"eng": "Take items out from your vault"
 			},
 			"upgradeSlot": {
@@ -417,7 +417,7 @@
 				"vars": [
 					"upgradeToSlot"
 				],
-				"trans": "Tingkatkan jumlah maksimum barang yang dapat Kamu simpan di lemari besi ke ${upgradeToSlot}",
+				"trans": "Tingkatkan jumlah maksimum item yang dapat kamu simpan di brankas ke ${upgradeToSlot}",
 				"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
 			},
 			"itemLocked": {
@@ -426,25 +426,25 @@
 			},
 			"modal": {
 				"selectDepositItem": {
-					"trans": "Berapa banyak yang ingin Kamu masukkan ke lemari besi?",
+					"trans": "Berapa banyak yang ingin kamu masukkan ke brankas?",
 					"eng": "How many would you like to put in the vault?"
 				},
 				"selectWithdrawItem": {
-					"trans": "Berapa banyak yang ingin Kamu tarik dari bank?",
+					"trans": "Berapa banyak yang ingin kamu tarik dari bank?",
 					"eng": "How many would you like to withdraw from the bank?"
 				},
 				"selectDeposit": {
-					"trans": "Berapa yang ingin Kamu setorkan?",
+					"trans": "Berapa yang ingin kamu setorkan?",
 					"eng": "How much would you like to deposit?"
 				},
 				"selectWithdraw": {
-					"trans": "Berapa banyak yang ingin Kamu tarik?",
+					"trans": "Berapa banyak yang ingin kamu tarik?",
 					"eng": "How much would you like to withdraw?"
 				}
 			},
 			"upgradeVaultModal": {
 				"title": {
-					"trans": "Tingkatkan lemari besi",
+					"trans": "Tingkatkan Brankas",
 					"eng": "Upgrade Vault"
 				},
 				"confirm": {
@@ -489,38 +489,38 @@
 				"eng": "Links are not allowed"
 			},
 			"spamBlock": {
-				"trans": "Tolong jangan mengirim pesan yang tidak berarti, spam akan dibisukan.",
+				"trans": "Harap tidak mengirim pesan yang tak berarti, spam akan dibisukan.",
 				"eng": "Please do not send meaningless message, spams will be muted."
 			},
 			"repeatBlock": {
-				"trans": "Tolong jangan mengirim pesan yang sama berulang kali, spam akan dibisukan.",
+				"trans": "Harap tidak mengirim pesan yang sama berulang kali, spam akan dibisukan.",
 				"eng": "Please do not send the same message repeatedly, spams will be muted."
 			},
 			"shortChatBlock": {
-				"trans": "Tolong jangan mengirim pesan singkat, coba tuliskan kalimat yang lebih panjang.",
+				"trans": "Jangan mengirim pesan singkat, coba tulis kalimat yang lebih panjang.",
 				"eng": "Please do not send short messages, try a longer sentence instead."
 			},
 			"underlevelChatBlock": {
 				"vars": [
 					"minLevel"
 				],
-				"trans": "Kamu harus berada setidaknya Level ${minLevel} untuk mengirim pesan obrolan",
+				"trans": "Kamu harus berada setidaknya level ${minLevel} untuk mengirim pesan obrolan",
 				"eng": "You need to be at least level ${minLevel} to send chat messages"
 			},
 			"chat": {
-				"trans": "Obrolan",
+				"trans": "chat",
 				"eng": "chat"
 			},
 			"gang": {
-				"trans": "Geng",
+				"trans": "geng",
 				"eng": "gang"
 			},
 			"mail": {
-				"trans": "Surat",
+				"trans": "surat",
 				"eng": "mail"
 			},
 			"noti": {
-				"trans": "Pemberitahuan",
+				"trans": "notifikasi",
 				"eng": "noti."
 			}
 		},
@@ -554,7 +554,7 @@
 		},
 		"chatPreview": {
 			"notConnected": {
-				"trans": "Sistem obrolan tidak terhubung",
+				"trans": "chat tidak terhubung",
 				"eng": "chat system not connected"
 			}
 		},
@@ -578,7 +578,7 @@
 					"vars": [
 						"cost"
 					],
-					"trans": "Obrolan geng akan diaktifkan saat Kamu menjadi anggota geng. \\ njoin geng dengan berteman dalam obrolan global atau membuat gengmu sendiri dan mengundang teman -temanmu!",
+					"trans": "Obrolan geng akan diaktifkan saat kamu menjadi anggota geng. \\ bergabung ke geng dengan berteman dalam obrolan global atau membuat gengmu sendiri dan mengundang teman-temanmu!",
 					"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
 				},
 				"createButton": {
@@ -590,14 +590,14 @@
 						"cost",
 						"currency"
 					],
-					"trans": "Buat geng untuk ${cost} ${currency}",
+					"trans": "Buat geng seharga ${cost} ${currency}",
 					"eng": "Create a gang for ${cost} ${currency}"
 				}
 			}
 		},
 		"deathScreen": {
 			"topTitleLeft": {
-				"trans": "Luka Fatal",
+				"trans": "cidera fatal",
 				"eng": "fatal injury"
 			},
 			"topTitleRight": {
@@ -609,7 +609,7 @@
 				"eng": "Flatlined"
 			},
 			"subTitleSmall": {
-				"trans": "Kesalahan kritis: Sambungan Neural Putus",
+				"trans": "Kesalahan kritis: Sambungan Neural Terputus",
 				"eng": "Critical Error: Neural Link Disconnected"
 			},
 			"progressBarTitle": {
@@ -626,16 +626,16 @@
 		"equipment": {
 			"lowPrintLevelTip": {
 				"title": {
-					"trans": "Peringkat Printing Rendah",
+					"trans": "Level Cetak Rendah",
 					"eng": "Low Printing Rank"
 				}
 			},
 			"lowPrintLevelTip2": {
-				"trans": "Tingkatkan peringkat pencetakanmu untuk membuat senjata yang lebih kuat dengan mencetak lebih banyak cache",
+				"trans": "Tingkatkan Level Cetakmu untuk membuat senjata yang lebih kuat dengan mencetak lebih banyak cache",
 				"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
 			},
 			"lowPrintLevelTip3": {
-				"trans": "Atau dengan mencetak otomatis dan menjual cache mu di Pasar Gelap",
+				"trans": "Atau dengan Cetak dan Jual Otomatis cache-mu di Pasar Gelap",
 				"eng": "Or by auto print and selling your caches in the Black Market"
 			},
 			"quickSlots": {
@@ -643,7 +643,7 @@
 				"eng": "Quick Slots"
 			},
 			"equipped": {
-				"trans": "Dilengkapi",
+				"trans": "Digunakan",
 				"eng": "Equipped"
 			}
 		},
@@ -656,7 +656,7 @@
 			},
 			"bindModal": {
 				"title": {
-					"trans": "Pilih item yang dapat digunakan untuk mengikat slot cepat",
+					"trans": "Pilih item yang dapat digunakan untuk mengisi slot cepat",
 					"eng": "Select a usable item to bind to a quick slot"
 				}
 			}
@@ -671,7 +671,7 @@
 				"eng": "Dungeon List"
 			},
 			"links": {
-				"trans": "tautan",
+				"trans": "Tautan",
 				"eng": "links"
 			},
 			"premiumShop": {
@@ -725,7 +725,7 @@
 					"vars": [
 						"itemSkipMinutes"
 					],
-					"trans": "Lewati waktu luang (${itemSkipMinutes} Menit)",
+					"trans": "Time Skip (${itemSkipMinutes} Menit)",
 					"eng": "Free time skip (${itemSkipMinutes} Min)"
 				},
 				"description": {
@@ -739,45 +739,45 @@
 			},
 			"confirmModal": {
 				"title": {
-					"trans": "Yakin menggunakan Skip?",
+					"trans": "Konfirmasi menggunakan Skip?",
 					"eng": "Confirm use skip?"
 				},
 				"subtitle": {
-					"trans": "Global skip akan melewatkan waktu tunggu untuk semua pemain melakukan tugas AFK",
+					"trans": "Global Skip akan melewatkan waktu tunggu untuk semua pemain yang melakukan tugas AFK",
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task"
 				}
 			},
 			"inProgressBox": {
 				"title": {
-					"trans": "Global skip sedang berlangsung",
+					"trans": "Global Skip dalam proses",
 					"eng": "Global Skip in progress"
 				},
 				"subtitle": {
 					"vars": [
 						"skippingPlayerCount"
 					],
-					"trans": "Mempercepat ${skippingPlayerCount} pemain ..",
+					"trans": "Mengakselerasi ${skippingPlayerCount} pemain ..",
 					"eng": "Accelerating ${skippingPlayerCount} users.."
 				}
 			},
 			"description": {
-				"trans": "Global skip membuatmu melewati waktu tunggu AFK, dan menyelesaikannya saat itu juga. \n     Efek ini akan diterapkan untuk semua pemain yang sedang melakukan tugas AFK",
+				"trans": "Global Skip membuatmu melewati waktu tunggu AFK, dan menyelesaikannya secara instan. \n     efek ini akan diterapkan untuk semua pemain yang sedang melakukan tugas AFK",
 				"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all players performing an AFK task"
 			}
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"trans": "Tekan lama untuk memilh lebih dari satu barang",
+				"trans": "Tekan lama untuk memilih banyak",
 				"eng": "Long press to multi-select"
 			}
 		},
 		"inventory": {
 			"items": {
-				"trans": "barang",
+				"trans": "item",
 				"eng": "items"
 			},
 			"secretKeys": {
-				"trans": "Kunci rahasia",
+				"trans": "kunci rahasia",
 				"eng": "secret keys"
 			},
 			"autoScrap": {
@@ -791,7 +791,7 @@
 				"eng": "Inventory"
 			},
 			"equipped": {
-				"trans": "Dipakai",
+				"trans": "Perlengkapan",
 				"eng": "Equipped"
 			},
 			"itemInbox": {
@@ -829,7 +829,7 @@
 				}
 			},
 			"areaEffect": {
-				"trans": "[AOE] Area of Effect (Efek Area), efek dari item ini akan diterima oleh sekutu dalam satu pertempuran dengan mu.",
+				"trans": "[AOE] Area of Effect (Efek Area), efek dari item ini akan diterima oleh sekutu dalam satu pertempuranmu.",
 				"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
 			},
 			"lockModal": {
@@ -839,7 +839,7 @@
 						"eng": "Unlock item?"
 					},
 					"description": {
-						"trans": "Saat item tidak terkunci, Anda dapat memperdagangkan atau membongkarnya.",
+						"trans": "Saat item tidak terkunci, kamu dapat memperdagangkan atau membongkarnya.",
 						"eng": "When item is unlocked, you can trade or scrap it."
 					}
 				},
@@ -849,7 +849,7 @@
 						"eng": "Lock item?"
 					},
 					"description": {
-						"trans": "Anda dapat mencegah membongkar atau menjual barang ini secara tidak sengaja dengan menguncinya.",
+						"trans": "Kamu dapat mencegah membongkar atau menjual barang ini secara tidak sengaja dengan menguncinya.",
 						"eng": "You can prevent accidentally scraping or selling this item by locking it."
 					}
 				}
@@ -863,26 +863,26 @@
 				"eng": "Unlocked"
 			},
 			"upgradeModuleTitleHeader": {
-				"trans": "Upgrade slot",
+				"trans": "Upgrade Slot",
 				"eng": "Upgrades Slots"
 			},
 			"upgradeModuleTitle": {
 				"vars": [
 					"index"
 				],
-				"trans": "Upgrade",
+				"trans": "Upgrade Slot",
 				"eng": "upgrade slot ${index}"
 			},
 			"equip": {
-				"trans": "Lengkapi",
+				"trans": "Gunakan",
 				"eng": "Equip"
 			},
 			"cantEquip": {
-				"trans": "Level mu terlalu rendah untuk item ini",
+				"trans": "Levelmu terlalu rendah untuk item ini",
 				"eng": "Your level is too low for this item"
 			},
 			"unequip": {
-				"trans": "Lepas",
+				"trans": "Lepaskan",
 				"eng": "Unequip"
 			},
 			"use": {
@@ -897,7 +897,7 @@
 				"eng": "You can't print equipment while ${currentAction}"
 			},
 			"printCache": {
-				"trans": "Print cache",
+				"trans": "Print Cache",
 				"eng": "Print Cache"
 			},
 			"printCacheDescription": {
@@ -11042,7 +11042,7 @@
 			"vars": [
 				"playerName"
 			],
-			"trans": "🎉 Kereta Kalibrasi 🚂 diaktifkan oleh ${playerName}",
+			"trans": "🎉Kereta Kalibrasi🚂 diaktifkan oleh ${playerName}",
 			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
 		},
 		"successMail": {
@@ -11061,11 +11061,11 @@
 	},
 	"globalParty": {
 		"notEnoughUnit": {
-			"trans": "Kamu nggak punya cukup Unit buat gabung ke global party",
+			"trans": "Kamu tidak punya cukup Unit untuk bergabung ke global party",
 			"eng": "You do not have enough Unit to join global party"
 		},
 		"alreadyActive": {
-			"trans": "Pesta global sudah aktif, tolong tunggu sampai selesai ya",
+			"trans": "Global Party siap aktif, harap tunggu hingga selesai",
 			"eng": "Global party is already active, please wait til it ends"
 		},
 		"announcement": {
@@ -11081,7 +11081,7 @@
 				"cred",
 				"percent"
 			],
-			"trans": "${playerName} udah berkontribusi ke kemajuan pesta global, kasih si legenda ini cred jalan! [dana saat ini: ${percent}%] ${cred}",
+			"trans": "${playerName} sudah berkontribusi ke kemajuan global party, berikan sang legenda beberapa street cres! [pendanaan saat ini: ${percent}%] ${cred}",
 			"eng": "${playerName} has contributed to global party progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
@@ -11091,21 +11091,21 @@
 				"vars": [
 					"amount"
 				],
-				"trans": "Anda telah menerima \"Skip Emblem 1\" karena memiliki ${amount} lewati titik",
+				"trans": "Kamu telah menerima \"Skip Emblem 1\" karena memiliki ${amount} lewati titik",
 				"eng": "You have received \"Skip Emblem 1\" for having ${amount} skip points"
 			},
 			"2": {
 				"vars": [
 					"amount"
 				],
-				"trans": "Anda telah menerima \"Skip Emblem 2\" karena memiliki ${amount} lewati titik",
+				"trans": "Kamu telah menerima \"Skip Emblem 2\" karena memiliki ${amount} lewati titik",
 				"eng": "You have received \"Skip Emblem 2\" for having ${amount} skip points"
 			},
 			"3": {
 				"vars": [
 					"amount"
 				],
-				"trans": "Anda telah menerima \"Skip Emblem 3\" karena memiliki ${amount} lewati titik",
+				"trans": "Kamu telah menerima \"Skip Emblem 3\" karena memiliki ${amount} lewati titik",
 				"eng": "You have received \"Skip Emblem 3\" for having ${amount} skip points"
 			},
 			"4": {
@@ -11113,7 +11113,7 @@
 					"frameName",
 					"amount"
 				],
-				"trans": "Anda telah menerima bingkai obrolan donator \"${frameName}\" karena memiliki ${amount} lewati poin",
+				"trans": "Kamu telah menerima bingkai obrolan donator \"${frameName}\" karena memiliki ${amount} lewati poin",
 				"eng": "You have received \"${frameName}\" donator chat frame for having ${amount} skip points"
 			}
 		},
@@ -11169,7 +11169,7 @@
 					"percent",
 					"cred"
 				],
-				"trans": "${player} has activated calibration buff, success chance increased by ${percent}, give this legend some street cred! ${cred}",
+				"trans": "${player} telah mengaktifkan buff kalibrasi, kesempatan sukses ditingkatkan hingga ${percent}, berikan sang legend beberapa street cred! ${cred}",
 				"eng": "${player} has activated calibration buff, success chance increased by ${percent}, give this legend some street cred! ${cred}"
 			}
 		}
