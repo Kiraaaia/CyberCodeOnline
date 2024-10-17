@@ -60,6 +60,7 @@ Proxxie
 [Eziyo](https://github.com/eziyoo)
 [f4tih-0z3r](https://github.com/f4tih-0z3r)
 [Fremad](https://github.com/Fremadico)
+gypsophila
 [JEricaM](https://github.com/JEricaM)
 Jiler
 Jixt3r
